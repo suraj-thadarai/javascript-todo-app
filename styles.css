@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(43, 44, 44, 0.539);
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    width: 80%;    
+    margin: auto;
+}
+
+.todo-form input[type=button]{
+    width: 10%;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(76, 0, 130, 0.364);
+    color: azure;
+    border-radius: 5px;
+    line-height: 2.5rem;
+}
+
+.todo-form input[type=text]{
+    text-align: center;
+    width: 80%;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(76, 0, 130, 0.364);
+    color: azure;
+    border-radius: 5px;
+    line-height: 2.5rem;
+}
+
+.todo-list{
+    display: flex;
+    justify-content:space-between;    
+    border-radius: 5px;
+    background-color: rgba(255, 105, 180, 0.458);
+    margin-top: 5px;
+    
+}
+
+#todo-task{    
+    width: 80%;
+    text-align: center;
+}
+
+#todo-task p {
+    font-weight: 800;
+    font-size: medium;
+}
+
+#todo-task input[type=text]{
+    text-align: center;
+    width: 80%;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(28, 27, 27, 0.458);
+    color: azure;
+    border-radius: 5px;
+    line-height: 2.5rem;
+}
+
+#todo-task-action{
+    display: flex;
+    width: 20%;
+    justify-content:space-around;
+    gap: 5px;
+}
+
+#todo-task-action button {
+    width: 100%;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(76, 0, 130, 0.364);
+    color: azure;
+    border-radius: 5px;
+}
